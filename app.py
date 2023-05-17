@@ -3,7 +3,7 @@ import openai
 
 openai.api_key = st.secrets["openai_key"]
 
-st.title("ChatGPT Plus DALL-E")
+st.title("DALL-E with ChatGPT")
 
 with st.form("form"):
     user_input = st.text_input("Prompt")
